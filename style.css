@@ -37,3 +37,9 @@ img{
     padding-left:20px;
     padding-right:20p;
 }
+.categoria-videos{
+    display:flex;
+    overflow-x: auto;
+    gap:10px;
+
+}
