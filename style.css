@@ -1,17 +1,19 @@
 body{
     color: white;
     background: black;
+    margin:0px;
   font-family:"Qwitcher Grypen", sans-serif;
+  margin-bottom:100px;
  }
 
 header {
-border: solid 2px red;
+border: solid 2px rgb(42,122,228);
 padding: 20px;
 font-size:32px;
-color:red;
+color:rgb(42,122,228);
 }
 
-section {
+.chamada {
 background: rgb(184,156,213);
 padding-bottom:80px;
 padding-top:80px;
@@ -30,12 +32,11 @@ h1{
 p{
     font-size: 20px;
 }
-img{
-    height: 200px;
-}
+
 .categoria{
     padding-left:20px;
-    padding-right:20p;
+    padding-right:20px;
+    margin-top:50px;
 }
 .categoria-videos{
     display:flex;
@@ -44,7 +45,7 @@ img{
 
 }
 .categoria-videos img{
-opacity: 1.0;
+opacity: 0.5;
 height:200 px;
 }
 .chamada-videos img.hover{
